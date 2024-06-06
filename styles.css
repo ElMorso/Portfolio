@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(37, 1, 70);
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+.navbar {
+    background-color: rgb(93, 47, 128);
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima del contenido */
+    top: 0; /* Asegura que la barra de navegación esté en la parte superior */
+    color: rgb(220, 210, 210);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Utiliza flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.navbar li {
+    margin: 0 10px; /* Añade margen entre los elementos */
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(220, 210, 210);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #ddd;
+    color: rgb(37, 1, 70);
+}
+
+/* Estilos de los iconos */
+.navbar i {
+    margin-right: 5px;
+}
+
+.yo {
+    width: 150px;
+    height: 150%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container {
+    height: 550px;
+    width: 500px;
+    box-shadow: 0 10px 20px black;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: Arial;
+    background-color: rgb(93, 47, 128);
+    color: rgb(220, 210, 210);
+    margin: auto; /* Centra el contenedor horizontalmente */
+    margin-top: 100px; /* Ajusta la distancia superior del contenedor */
+}
+
+#audioPlayer {
+    display: none; /* Oculta el reproductor de audio */
+}
+
+
+
